@@ -1,0 +1,20 @@
+-you should build a virtual enviroment 
+
+create a directory 
+open terminal from the created directory 
+
+type : 
+pip install pipenv
+
+pipenv --three
+
+pipenv shell
+
+pipenv install flask flask-sqlalchemy flask_marshmallow marshmallow-sqlalchemy flask-cors
+
+export FLASK_APP=server.py
+
+flask run 
+
+
+
